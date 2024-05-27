@@ -72,7 +72,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
       <Routes>
-        <Route path="/admin/login" element={<SignIn />}></Route>
+        <Route path="/login" element={<SignIn />}></Route>
         <Route path="/" element={<RootComponent />}>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />}></Route>
@@ -82,6 +82,7 @@ function App() {
           <Route path="/revenue" element={<Revenue />}></Route>
           <Route path="/reports" element={<Growth />}></Route>
           <Route path="/staffs" element={<Staff />}></Route>
+          
           {/* <Route path="/reports" element={<Report />}></Route> */}
           <Route path="/settings" element={<Setting />}></Route>
         </Route>

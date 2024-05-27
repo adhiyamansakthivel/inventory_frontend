@@ -22,6 +22,7 @@ import {
   TrendingUpOutlined,
   PeopleAltOutlined,
   GroupAddOutlined,
+  AccountBoxOutlined,
 } from "@mui/icons-material";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
@@ -72,6 +73,11 @@ export default function SideBarComponent() {
       title: "Staffs",
       component: <GroupAddOutlined fontSize="medium" color="primary" />,
     },
+    {
+      title: "Login",
+      component: <AccountBoxOutlined fontSize="medium" color="primary" />,
+    },
+    
     
     {
       title: "Settings",
