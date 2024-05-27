@@ -24,6 +24,7 @@ import Report from "./components/bodyComponents/report/Report";
 import Setting from "./components/bodyComponents/Settings/Setting";
 import Order from "./components/bodyComponents/order/Order";
 import OrderModal from "./components/bodyComponents/order/OrderModal";
+import Staff from "./components/bodyComponents/staff/Staff";
 
 function App() {
   const theme = createTheme({
@@ -73,14 +74,15 @@ function App() {
       <Routes>
         <Route path="/admin/login" element={<SignIn />}></Route>
         <Route path="/" element={<RootComponent />}>
-          <Route index element={<RootPage />} />
+          <Route index element={<Home />} />
           <Route path="/home" element={<Home />}></Route>
           <Route path="/inventory" element={<Inventory />}></Route>
           <Route path="/orders" element={<Order />}></Route>
           <Route path="/customers" element={<Customer />}></Route>
           <Route path="/revenue" element={<Revenue />}></Route>
-          <Route path="/growth" element={<Growth />}></Route>
-          <Route path="/reports" element={<Report />}></Route>
+          <Route path="/reports" element={<Growth />}></Route>
+          <Route path="/staffs" element={<Staff />}></Route>
+          {/* <Route path="/reports" element={<Report />}></Route> */}
           <Route path="/settings" element={<Setting />}></Route>
         </Route>
       </Routes>

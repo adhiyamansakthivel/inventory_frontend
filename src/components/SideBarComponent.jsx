@@ -21,6 +21,7 @@ import {
   CardTravelOutlined,
   TrendingUpOutlined,
   PeopleAltOutlined,
+  GroupAddOutlined,
 } from "@mui/icons-material";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
@@ -38,6 +39,7 @@ export default function SideBarComponent() {
   //     }
   //     });
   const sideBarComponent = [
+    
     {
       title: "Home",
       component: <HomeOutlined fontSize="medium" color="primary" />,
@@ -59,13 +61,18 @@ export default function SideBarComponent() {
       component: <MonetizationOnOutlined fontSize="medium" color="primary" />,
     },
     {
-      title: "Growth",
-      component: <TrendingUpOutlined fontSize="medium" color="primary" />,
-    },
-    {
       title: "Reports",
       component: <DescriptionOutlined fontSize="medium" color="primary" />,
     },
+    // {
+    //   title: "Growth",
+    //   component: <TrendingUpOutlined fontSize="medium" color="primary" />,
+    // },
+    {
+      title: "Staffs",
+      component: <GroupAddOutlined fontSize="medium" color="primary" />,
+    },
+    
     {
       title: "Settings",
       component: <SettingsOutlined fontSize="medium" color="primary" />,
