@@ -29,3 +29,5 @@ Currently, two official plugins are available:
   - ## Growth
   ![click me](https://github.com/IMDADMI/inventory-management-system/blob/7-growth-part/src/assets/Home.PNG?raw=true)
 "# inventory_frontend" 
+
+#credits : https://github.com/IMDADMI/inventory-management-system/
