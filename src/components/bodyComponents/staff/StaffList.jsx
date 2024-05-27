@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Avatar, Box, Typography } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import staffs from "./staffs";
+import staffs from "./Staffs";
 export default class StaffList extends Component {
   render() {
     const columns = [
